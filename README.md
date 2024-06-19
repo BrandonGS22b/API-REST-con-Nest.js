@@ -75,3 +75,27 @@ Nest is [MIT licensed](LICENSE).
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"><!-- se agrega estilo css line en rgb-->
 
 <h3>Integramos Docker al Project</h3>
+<a>Vamos a usar un archivo de configuracion de docker compose</a>
+
+## Docker
+<a>creamos un archivo en la carpeta local API-REST-CON-NEST.JS </a>
+<h3>Nombre archivo: docker-compose.yml</h3>
+
+```bash
+version: "3.8"
+services:
+  mysql:
+    image: mysql:8.0
+    container_name: mysql_db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: db_crud
+      MYSQL_USER: user_crud
+      MYSQL_PASSWORD: root
+    volumes:
+      - ./mysql:/var/lib/mysql
+    ports:
+      - "3307:3306"
+
+```
