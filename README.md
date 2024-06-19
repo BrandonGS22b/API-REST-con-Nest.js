@@ -123,3 +123,16 @@ services:
 
 ![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/app.modules.png)
 
+<h4>Aplicamos el comando</h4>
+```bash
+ nest g res cats --no-spec
+```
+<h4>PASO 1:REST API</h4>
+
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/comando.png)
+
+<h4>PASO 2:YES</h4>
+<a>Como podemos ver se nos creo la carpeta de cats y se importo= imports: [CatsModule] , Se nos generara todo el Crud</a>
+
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/cats.png)
+
