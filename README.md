@@ -75,7 +75,7 @@ Nest is [MIT licensed](LICENSE).
 <img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"><!-- se agrega estilo css line en rgb-->
 
 <h3>Integramos Docker al Project</h3>
-<a>Vamos a usar un archivo de configuracion de docker compose</a>
+<a>Vamos a usar un archivo de configuracion de docker compose con esto se va descargar una version de mysql de docker hub </a>
 
 ## Docker
 <a>creamos un archivo en la carpeta local API-REST-CON-NEST.JS </a>
