@@ -78,7 +78,9 @@ Nest is [MIT licensed](LICENSE).
 <a>Vamos a usar un archivo de configuracion de docker compose con esto se va descargar una version de mysql de docker hub </a>
 
 ## Docker
+
 <a>creamos un archivo en la carpeta local API-REST-CON-NEST.JS </a>
+
 <h3>Nombre archivo: docker-compose.yml</h3>
 
 ```bash
@@ -99,12 +101,14 @@ services:
       - "3307:3306"
 
 ```
+
 <h3>En la Terminar de Visual Code ponemos el siguiente comando para levantar el contenedo de docker y se nos descargara la imagen de docker:image: mysql:8.0</h3>
 <a>Debemos tener el docker activo o la app abierta de docker desktop </a>
 
 ```bash
- docker compose up -d   
+ docker compose up -d
 ```
+
 <h3>Ejecutado el codigo en la terminar en dockerDesktop se tendra que ver asi : </h3>
 
 ![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/dockerdekstop.png)
@@ -112,3 +116,10 @@ services:
 <h3>Vamos a eliminar los siguientes controladores : app.controller.spec.ts , app.controller.ts , app.service.ts </h3>
 
 ![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/controladores.png)
+
+<img src="https://i.imgur.com/dBaSKWF.gif" height="20" width="100%"><!-- se agrega estilo css line en rgb-->
+<h3>Vamos a Generar todo el crud: </h3>
+<a>el archivo "app.module.ts" lo tenemos que dejar vacido de la siguiente manera para aplicar el comando desde la terminal y nos genere todo automaticamente</a>
+
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/app.modules.png)
+
