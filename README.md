@@ -108,3 +108,7 @@ services:
 <h3>Ejecutado el codigo en la terminar en dockerDesktop se tendra que ver asi : </h3>
 
 ![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/dockerdekstop.png)
+
+<h3>Vamos a eliminar los siguientes controladores : app.controller.spec.ts , app.controller.ts , app.service.ts </h3>
+
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/controladores.png)
