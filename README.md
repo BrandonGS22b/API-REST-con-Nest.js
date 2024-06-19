@@ -99,9 +99,11 @@ services:
       - "3307:3306"
 
 ```
-<h3>En la Terminar de Visual Code ponemos el siguiente comando para levantar el contenedo de docker</h3>
+<h3>En la Terminar de Visual Code ponemos el siguiente comando para levantar el contenedo de docker y se nos descargara la imagen de docker:image: mysql:8.0</h3>
 <a>Debemos tener el docker activo o la app abierta de docker desktop </a>
 
 ```bash
  docker compose up -d   
 ```
+<h3>Ejecutado el codigo en la terminar en dockerDesktop se tendra que ver asi : </h3>
+![image](https://github.com/elmike98/PowerChart/assets/122324595/360f10c2-32e3-485e-95fb-6c4ffa545d49)
