@@ -106,4 +106,4 @@ services:
  docker compose up -d   
 ```
 <h3>Ejecutado el codigo en la terminar en dockerDesktop se tendra que ver asi : </h3>
-![image](https://github.com/elmike98/PowerChart/assets/122324595/360f10c2-32e3-485e-95fb-6c4ffa545d49)
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/dockerdekstop.png)
