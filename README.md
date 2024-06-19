@@ -99,3 +99,8 @@ services:
       - "3307:3306"
 
 ```
+<h3>En la Terminar de Visual Code ponemos el siguiente comando para levantar el contenedo de docker</h3>
+<a>Debemos tener el docker activo o la app abierta de docker desktop </a>
+```bash
+ docker compose up -d   
+```
