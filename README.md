@@ -206,3 +206,10 @@ export class AppModule {}
 
 
 ```
+
+<h4>Iniciamos con el patron de diseño ORM o modelo para la base de datos" </h4>
+<a>se encuentra en la carpeta : /entiti/cat.entity.ts</a>
+```bash
+
+
+```
