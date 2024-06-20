@@ -168,3 +168,10 @@ bootstrap();
 <h4>Lo probamos en postman</h4>
 
 ![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/postmanpruebainicial.png)
+
+<h3>Instalamos las dependencia para integrar base de datos sql y no sql</h3>
+```bash
+
+yarn add @nestjs/typeorm typeorm mysql2
+
+```
