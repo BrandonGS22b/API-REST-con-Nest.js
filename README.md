@@ -174,3 +174,35 @@ bootstrap();
 ```bash
 yarn add @nestjs/typeorm typeorm mysql2
 ```
+<h4>Ahora nos vamos a conectar a la base de datos lo hacemos en "app.module" </h4>
+<a>para poder llenar la siguiente informacion debemos tener en cuenta el docker-composee </a>
+
+<a>utilizando TypeORM para la interacción con una base de datos MySQL</a>
+
+```bash
+import { Module } from '@nestjs/common';
+import { CatsModule } from './cats/cats.module';
+import { TypeOrmModule } from '@nestjs/typeorm';
+
+@Module({
+  imports: [
+    CatsModule,
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: 'localhost',
+      port: 3307,
+      username: 'user_crud',
+      password: 'root',
+      database: 'db_crud',
+      autoLoadEntities: true,
+      synchronize: true,
+
+    }), 
+  ],
+  controllers: [],
+  providers: [],
+})
+export class AppModule {}
+
+
+```
