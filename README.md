@@ -165,3 +165,6 @@ async function bootstrap() {
 bootstrap();
 
 ```
+<h4>Lo probamos en postman</h4>
+
+![image](https://github.com/BrandonGS22b/Front/blob/main/holaMundoConNest/postmanpruebainicial.png)
